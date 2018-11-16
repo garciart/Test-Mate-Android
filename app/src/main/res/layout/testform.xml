@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDD_TESTFORM_SCROLLVIEW"
+	android:background="#FFFFFF"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout
+		android:id="@+id/IDD_TESTFORM_LINEARLAYOUT"
+		android:background="#FFFFFF"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/IDC_TEST_LABEL_QUESTIONBOX"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:padding="3dp"
+			android:text="Who's Android is this?"
+			android:textColor="#003366">
+		</TextView>
+		<RadioGroup
+			android:id="@+id/IDC_TEST_RADIOGROUP"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<RadioButton
+				android:id="@+id/IDC_TEST_RADIO_ANSWER1"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="¡Esta es mi Android!"
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_TEST_RADIO_ANSWER2"
+				android:gravity="fill_vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="wrap_content"
+				android:text="Tämä on minun Android!"
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_TEST_RADIO_ANSWER3"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Dies ist meine Android!"
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_TEST_RADIO_ANSWER4"
+				android:gravity="fill_vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:text="Acest lucru este meu Android!"
+				android:textColor="#003366">
+			</RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</ScrollView>

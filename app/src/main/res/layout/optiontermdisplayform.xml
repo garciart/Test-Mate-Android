@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDD_OPTIONTERMDISPLAYFORM_SCROLLVIEW"
+	android:background="#FFFFFF"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout
+		android:id="@+id/IDD_OPTIONTERMDISPLAYFORM_LINEARLAYOUT"
+		android:background="#FFFFFF"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/IDC_DISPLAYOPTION_LABEL"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="3dp"
+			android:text="If there are key terms present, how would you like them displayed?"
+			android:textColor="#003366">
+		</TextView>
+		<RadioGroup
+			android:id="@+id/IDC_DISPLAYOPTION_RADIOGROUP"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<RadioButton
+				android:id="@+id/IDC_DISPLAYOPTION_RADIO_TERM"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Display the term and ask for the definition."
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_DISPLAYOPTION_RADIO_DEFINITION"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Display the definition and ask for the term."
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_DISPLAYOPTION_RADIO_MIX"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Mix it up, please."
+				android:textColor="#003366">
+			</RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</ScrollView>

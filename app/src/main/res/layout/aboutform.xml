@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDD_ABOUTFORM_SCROLLVIEW"
+	android:background="#FFFFFF"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout
+		android:id="@+id/IDD_ABOUTFORM_LINEARLAYOUT"
+		android:background="#FFFFFF"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/IDC_ABOUT_LABEL_PRODUCTNAME"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:paddingLeft="3dp"
+			android:paddingRight="3dp"
+			android:paddingTop="3dp"
+			android:text="Test Mate® Evaluation Version 3"
+			android:textColor="#003366">
+		</TextView>
+		<TextView
+			android:id="@+id/IDC_ABOUT_LABEL_COPYRIGHT"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:paddingLeft="3dp"
+			android:paddingRight="3dp"
+			android:text="Copyright 1993-2010 Robert Garcia"
+			android:textColor="#003366">
+		</TextView>
+		<TextView
+			android:id="@+id/IDC_ABOUT_LINKLABEL"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:paddingBottom="3dp"
+			android:paddingLeft="3dp"
+			android:paddingRight="3dp"
+			android:text="Visit us at www.whystudyalone.com"
+			android:textColor="#003366">
+		</TextView>
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:background="#003366"/> 
+		<TextView
+			android:id="@+id/IDC_ABOUT_LABEL_DESCRIPTION"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="3dp"
+			android:text="Test Mate® is a mobile self-study system, designed to assist you in achieving your educational and professional goals by allowing you to study what you want, when and where you want. Why study alone?"
+			android:textColor="#003366">
+		</TextView>
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:background="#003366"/> 
+		<TextView
+			android:id="@+id/IDC_ABOUT_LABEL_WARNING"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="3dp"
+			android:text="Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted under the maximum extent possible under law."
+			android:textColor="#003366">
+		</TextView>
+	</LinearLayout>
+</ScrollView>

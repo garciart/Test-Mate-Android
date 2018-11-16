@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDD_OPTIONQUESTIONORDERFORM_SCROLLVIEW"
+	android:background="#FFFFFF"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout
+		android:id="@+id/IDD_OPTIONQUESTIONORDERFORM_LINEARLAYOUT"
+		android:background="#FFFFFF"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/IDC_ORDEROPTION_LABEL"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="3dp"
+			android:text="Would you like to use the default order of questions or a random order?"
+			android:textColor="#003366">
+		</TextView>
+		<RadioGroup
+			android:id="@+id/IDC_ORDEROPTION_RADIOGROUP"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<RadioButton
+				android:id="@+id/IDC_ORDEROPTION_RADIO_DEFAULT"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Use the default order."
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_ORDEROPTION_RADIO_RANDOM"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Use a random order that simulates a real test."
+				android:textColor="#003366">
+			</RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDD_OPTIONPROVIDEFEEDBACKFORM_SCROLLVIEW"
+	android:background="#FFFFFF"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<LinearLayout
+		android:id="@+id/IDD_OPTIONPROVIDEFEEDBACKFORM_LINEARLAYOUT"
+		android:background="#FFFFFF"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/IDC_FEEDBACKOPTION_LABEL"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="3dp"
+			android:text="Would you like feedback after answering each question?"
+			android:textColor="#003366">
+		</TextView>
+		<RadioGroup
+			android:id="@+id/IDC_FEEDBACKOPTION_RADIOGROUP"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			<RadioButton
+				android:id="@+id/IDC_FEEDBACKOPTION_RADIO_YES"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Yes, I want to know immediately if I was right or wrong."
+				android:textColor="#003366">
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/IDC_FEEDBACKOPTION_RADIO_NO"
+				android:gravity="fill_vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="No, I want to simulate the conditions of a real test."
+				android:textColor="#003366">
+			</RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+</ScrollView>
